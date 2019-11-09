@@ -112,9 +112,19 @@
   #introduccion, #marcoTeorico, #metodologia, #hallazgos, #bibliografia, #indice{
     padding-top:70px;padding-bottom:70px;
   }
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img-responsive{
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
   .descripcion-img{
     text-align: left;
-    padding: 0px 10px;
+    padding: 10px 10px;
     font-size: 1em;
   }
   blockquote {
@@ -146,13 +156,6 @@
     font-size: 0.875em;
     color: #e74c3c;
   }
-  /*iframe {
-    display: block;
-    width: 800px;
-    height: 400px;
-    margin: 0 auto;
-    border: 0;
-  }*
 
   @media (max-width: 768px) {
     p{
