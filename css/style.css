@@ -106,7 +106,7 @@
     /*font-size: 400%;*/
     font-size: 6em;
     float: left;
-    margin: .1em .2em 0 0;
+    margin: .3em .2em 0 0;
     color: #00b0ff;
   }
   #introduccion, #marcoTeorico, #metodologia, #hallazgos, #bibliografia, #indice{
@@ -146,13 +146,13 @@
     font-size: 0.875em;
     color: #e74c3c;
   }
-  iframe {
+  /*iframe {
     display: block;
     width: 800px;
     height: 400px;
     margin: 0 auto;
     border: 0;
-  }
+  }*
 
   @media (max-width: 768px) {
     p{
