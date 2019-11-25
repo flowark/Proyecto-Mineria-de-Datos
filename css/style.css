@@ -23,6 +23,9 @@
     font-weight: 700;
     /*text-transform: uppercase;*/
   }
+  h3{
+    padding-bottom: 40px;
+  }
   p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -130,14 +133,17 @@
   .img-responsive{
     max-width: 100%;
     height: auto;
-    display: block;
+    /*display: block;*/
   }
   .descripcion-img{
     text-align: center;
-    padding: 10px 10px;
+    padding: 20px 10px;
     font-size: 1em;
   }
   blockquote {
+    font-family: 'Roboto Slab', serif !important;
+    font-weight: 400;
+    font-style: italic;
     display: block;
     border-width: 2px 0;
     border-style: solid;
@@ -145,6 +151,10 @@
     padding: 1.5em 0 0.5em;
     margin: 1.5em 0;
     position: relative;
+  }
+  blockquote ul li{
+    font-family: 'Roboto Slab', serif !important;
+    font-weight: 400;
   }
   blockquote:before {
     content: '\201C';
@@ -175,7 +185,35 @@
     margin-left: 0;
     margin-right: 0;
     padding-left: 40px;
+    font-size: 1.1875em;
   }
+  footer{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-image: linear-gradient(to right, #304ffe , #00b0ff);
+    color: #ffffff;
+    text-align: center;
+  }
+  footer p{
+    line-height: 1em !important;
+  }
+  footer .logo{
+    font-family: 'Roboto Slab' !important;
+    font-weight: 400;
+  }
+  /*footer .made{
+    text-align: center;
+    font-size: 0.8125em;
+  }
+  footer .made a{
+    color:#e0e0e0;
+  }
+  footer .made a:hover{
+    color:#ffffff;
+  }
+  footer img{
+    display: inline;
+  }*/
 
   @media (max-width: 768px) {
     p{
