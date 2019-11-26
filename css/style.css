@@ -219,8 +219,8 @@
   }*/
 
   @media (max-width: 768px) {
-    p{
-      font-size: 1em;
+    p, .container ul, blockquote{
+      font-size: 0.9375em;
     }
     .BoxOne {
       height: 900px;
